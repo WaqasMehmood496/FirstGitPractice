@@ -15,6 +15,7 @@
 		2296E6EB266C045C00DFBD21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2296E6E9266C045C00DFBD21 /* LaunchScreen.storyboard */; };
 		2296E6F6266C045D00DFBD21 /* GitPracticeProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2296E6F5266C045D00DFBD21 /* GitPracticeProjectTests.swift */; };
 		2296E701266C045D00DFBD21 /* GitPracticeProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2296E700266C045D00DFBD21 /* GitPracticeProjectUITests.swift */; };
+		2296E712266C0F1000DFBD21 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2296E711266C0F1000DFBD21 /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		2296E6FC266C045D00DFBD21 /* GitPracticeProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitPracticeProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2296E700266C045D00DFBD21 /* GitPracticeProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitPracticeProjectUITests.swift; sourceTree = "<group>"; };
 		2296E702266C045D00DFBD21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2296E711266C0F1000DFBD21 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				2296E6E7266C045C00DFBD21 /* Assets.xcassets */,
 				2296E6E9266C045C00DFBD21 /* LaunchScreen.storyboard */,
 				2296E6EC266C045C00DFBD21 /* Info.plist */,
+				2296E711266C0F1000DFBD21 /* MapViewController.swift */,
 			);
 			path = GitPracticeProject;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 				2296E6E3266C045800DFBD21 /* ViewController.swift in Sources */,
 				2296E6DF266C045800DFBD21 /* AppDelegate.swift in Sources */,
 				2296E6E1266C045800DFBD21 /* SceneDelegate.swift in Sources */,
+				2296E712266C0F1000DFBD21 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

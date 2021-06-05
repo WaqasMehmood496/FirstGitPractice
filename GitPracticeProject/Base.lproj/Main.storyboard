@@ -33,6 +33,32 @@
             </objects>
             <point key="canvasLocation" x="141" y="64"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="3ab-7U-vTt">
+            <objects>
+                <viewController id="tFB-GW-k1w" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="MY3-eN-gLp">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="BQD-4o-pns">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                            </mapView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="zlf-n4-0ty"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="zlf-n4-0ty" firstAttribute="bottom" secondItem="BQD-4o-pns" secondAttribute="bottom" id="K97-AO-MwZ"/>
+                            <constraint firstItem="zlf-n4-0ty" firstAttribute="trailing" secondItem="BQD-4o-pns" secondAttribute="trailing" id="PwI-yv-v6g"/>
+                            <constraint firstItem="BQD-4o-pns" firstAttribute="leading" secondItem="zlf-n4-0ty" secondAttribute="leading" id="Vai-CM-AHl"/>
+                            <constraint firstItem="BQD-4o-pns" firstAttribute="top" secondItem="zlf-n4-0ty" secondAttribute="top" id="o7M-yY-Mqi"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="myz-CQ-dg4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="886" y="57"/>
+        </scene>
     </scenes>
     <resources>
         <systemColor name="systemBackgroundColor">
