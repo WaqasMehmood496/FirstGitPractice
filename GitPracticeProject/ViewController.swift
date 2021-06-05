@@ -13,7 +13,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         print("Some print here")
         let mapviewController = MapViewController()
-        print(mapviewController)
+        print(mapviewController )
     }
 
 
